@@ -17,7 +17,6 @@
 import TestComponent from './assets/components/FirstComponent.vue'
 
 
-
 export default {
   name: 'app',
   components: {
