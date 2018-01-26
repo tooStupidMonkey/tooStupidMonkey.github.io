@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-      <h1>Show me you true power</h1>
+      <h1>Show me your true power</h1>
+      <TestComponent/>
   </div>
 </template>
 
 <script>
+
+import TestComponent from './assets/components/FirstComponent.vue'
+
 export default {
   name: 'app',
+  components: {
+    TestComponent
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
