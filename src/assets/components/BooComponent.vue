@@ -1,9 +1,8 @@
 <template>
   <div>
-      <h2>I`m ready to start master</h2>
+      <h1>Boo and you dead</h1>
   </div>
 </template>
-
 <script>
 export default {
   

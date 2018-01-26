@@ -2,12 +2,21 @@
   <div id="app">
       <h1>Show me your true power</h1>
       <TestComponent/>
+      <router-link to="/boo">Make me boo</router-link>
+      <router-link to="/foo">Make me foo</router-link>
+      <hr>
+      <div>
+        See first spell force
+        <router-view></router-view>
+      </div>
   </div>
 </template>
 
 <script>
 
 import TestComponent from './assets/components/FirstComponent.vue'
+
+
 
 export default {
   name: 'app',

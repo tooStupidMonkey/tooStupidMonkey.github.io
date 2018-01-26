@@ -1,6 +1,8 @@
 <template>
   <div>
-      <h2>I`m ready to start master</h2>
+      <h2>
+          Foo and you alive
+      </h2>
   </div>
 </template>
 
