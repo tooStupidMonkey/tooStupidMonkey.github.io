@@ -23,7 +23,13 @@ import Contacts from './assets/components/ContactsComponent.vue'
 
 
 
-const routes = [{
+const routes = [
+  {
+    path: '/',
+    component: AboutSite,
+    name: 'about-site'
+  },
+  {
     path: '/about-site',
     component: AboutSite,
     name: 'about-site'
@@ -45,7 +51,12 @@ const routes = [{
     path: '/contacts',
     component: Contacts,
     name: 'contacts'
-  }
+  },
+  {
+    path: '*',
+    component: AboutSite,
+    name: 'about-site'
+  },
 
 ]
 
