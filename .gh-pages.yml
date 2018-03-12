@@ -1,0 +1,9 @@
+redirects:
+    redirect_to: index.html
+    try_files: true
+location / {
+    root /path/to/site;
+    index index.html;
+    try_files $uri $uri/ /index.html =404;
+}    
+    
